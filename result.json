@@ -1,0 +1,511 @@
+{
+    "search_metadata": {
+      "id": "6687515a3a218a85dfe04677",
+      "status": "Success",
+      "json_endpoint": "https://serpapi.com/searches/8edeac6b995b3e35/6687515a3a218a85dfe04677.json",
+      "created_at": "2024-07-05 01:50:18 UTC",
+      "processed_at": "2024-07-05 01:50:18 UTC",
+      "google_scholar_url": "https://scholar.google.com/scholar?q=Coffee&hl=en&num=12",
+      "raw_html_file": "https://serpapi.com/searches/8edeac6b995b3e35/6687515a3a218a85dfe04677.html",
+      "total_time_taken": 1.55
+    },
+    "search_parameters": {
+      "engine": "google_scholar",
+      "q": "Coffee",
+      "hl": "en",
+      "num": "12"
+    },
+    "search_information": {
+      "organic_results_state": "Results for exact spelling",
+      "total_results": 4160000,
+      "time_taken_displayed": 0.05,
+      "query_displayed": "Coffee"
+    },
+    "organic_results": [
+      {
+        "position": 0,
+        "title": "The impact of coffee on health",
+        "result_id": "sWzmct-yYzgJ",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0378512213000479",
+        "snippet": "… , where pressed ground coffee beans are used directly, in either espresso or coffee pot so … espresso or coffee pots, where boiled water is directly passed through pressed coffee powder …",
+        "publication_info": {
+          "summary": "A Cano-Marquina, JJ Tarín, A Cano - Maturitas, 2013 - Elsevier",
+          "authors": [
+            {
+              "name": "A Cano-Marquina",
+              "link": "https://scholar.google.com/citations?user=nMS5yswAAAAJ&hl=en&num=12&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=nMS5yswAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "nMS5yswAAAAJ"
+            }
+          ]
+        },
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=sWzmct-yYzgJ",
+          "cited_by": {
+            "total": 494,
+            "link": "https://scholar.google.com/scholar?cites=4063287961593474225&as_sdt=5,44&sciodt=0,44&hl=en&num=12",
+            "cites_id": "4063287961593474225",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=4063287961593474225&engine=google_scholar&hl=en&num=12"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:sWzmct-yYzgJ:scholar.google.com/&scioq=Coffee&hl=en&num=12&as_sdt=0,44",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=related%3AsWzmct-yYzgJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 10,
+            "link": "https://scholar.google.com/scholar?cluster=4063287961593474225&hl=en&num=12&as_sdt=0,44",
+            "cluster_id": "4063287961593474225",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&cluster=4063287961593474225&engine=google_scholar&hl=en&num=12"
+          }
+        }
+      },
+      {
+        "position": 1,
+        "title": "The impact of coffee on health",
+        "result_id": "KVT-hW9IrDoJ",
+        "link": "https://www.thieme-connect.com/products/ejournals/html/10.1055/s-0043-115007",
+        "snippet": "… coffee, indicating that besides caffeine other components contribute to the health protecting effects. For adults consuming moderate amounts of coffee (… information about coffee on health…",
+        "publication_info": {
+          "summary": "K Nieber - Planta medica, 2017 - thieme-connect.com"
+        },
+        "resources": [
+          {
+            "title": "thieme-connect.com",
+            "file_format": "PDF",
+            "link": "https://www.thieme-connect.com/products/ejournals/pdf/10.1055/s-0043-115007.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=KVT-hW9IrDoJ",
+          "cited_by": {
+            "total": 272,
+            "link": "https://scholar.google.com/scholar?cites=4227833794020660265&as_sdt=5,44&sciodt=0,44&hl=en&num=12",
+            "cites_id": "4227833794020660265",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=4227833794020660265&engine=google_scholar&hl=en&num=12"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:KVT-hW9IrDoJ:scholar.google.com/&scioq=Coffee&hl=en&num=12&as_sdt=0,44",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=related%3AKVT-hW9IrDoJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 8,
+            "link": "https://scholar.google.com/scholar?cluster=4227833794020660265&hl=en&num=12&as_sdt=0,44",
+            "cluster_id": "4227833794020660265",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&cluster=4227833794020660265&engine=google_scholar&hl=en&num=12"
+          }
+        }
+      },
+      {
+        "position": 2,
+        "title": "Functional properties of coffee and coffee by-products",
+        "result_id": "9WouRiFbIK4J",
+        "link": "https://www.sciencedirect.com/science/article/pii/S0963996911003449",
+        "snippet": "… roasted coffee … coffee, coffee beans and by-products in terms of the associated potential health benefits. The data in this review have been organized in sections according to the coffee …",
+        "publication_info": {
+          "summary": "P Esquivel, VM Jimenez - Food research international, 2012 - Elsevier",
+          "authors": [
+            {
+              "name": "P Esquivel",
+              "link": "https://scholar.google.com/citations?user=EpwJXskAAAAJ&hl=en&num=12&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=EpwJXskAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "EpwJXskAAAAJ"
+            },
+            {
+              "name": "VM Jimenez",
+              "link": "https://scholar.google.com/citations?user=_P0h0B8AAAAJ&hl=en&num=12&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=_P0h0B8AAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "_P0h0B8AAAAJ"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "uoregon.edu",
+            "file_format": "PDF",
+            "link": "https://pages.uoregon.edu/chendon/coffee_literature/old_literature/2012%20Food%20Res.%20Int.,%20Uses%20for%20coffee%20waste.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=9WouRiFbIK4J",
+          "cited_by": {
+            "total": 1177,
+            "link": "https://scholar.google.com/scholar?cites=12547128760323697397&as_sdt=5,44&sciodt=0,44&hl=en&num=12",
+            "cites_id": "12547128760323697397",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=12547128760323697397&engine=google_scholar&hl=en&num=12"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:9WouRiFbIK4J:scholar.google.com/&scioq=Coffee&hl=en&num=12&as_sdt=0,44",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=related%3A9WouRiFbIK4J%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 8,
+            "link": "https://scholar.google.com/scholar?cluster=12547128760323697397&hl=en&num=12&as_sdt=0,44",
+            "cluster_id": "12547128760323697397",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&cluster=12547128760323697397&engine=google_scholar&hl=en&num=12"
+          }
+        }
+      },
+      {
+        "position": 3,
+        "title": "Components of coffee",
+        "result_id": "QwF9cuvhnCoJ",
+        "type": "Pdf",
+        "link": "https://www.researchgate.net/profile/Maurice-Arnaud/publication/311253694_Metabolism_of_caffeine_and_other_components_of_coffee/links/58f1d0cfa6fdcc11e569e8e8/Metabolism-of-caffeine-and-other-components-of-coffee.pdf",
+        "snippet": "The metabolism of coffee constituents such as trigonelline, chlorogenic acid with its two components, caffeic and quinic acids, are also presented. Other aromatic compounds present in …",
+        "publication_info": {
+          "summary": "MJ Arnaud - Caffeine, coffee, and health, 1993 - researchgate.net"
+        },
+        "resources": [
+          {
+            "title": "researchgate.net",
+            "file_format": "PDF",
+            "link": "https://www.researchgate.net/profile/Maurice-Arnaud/publication/311253694_Metabolism_of_caffeine_and_other_components_of_coffee/links/58f1d0cfa6fdcc11e569e8e8/Metabolism-of-caffeine-and-other-components-of-coffee.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=QwF9cuvhnCoJ",
+          "cited_by": {
+            "total": 245,
+            "link": "https://scholar.google.com/scholar?cites=3070577447314194755&as_sdt=5,44&sciodt=0,44&hl=en&num=12",
+            "cites_id": "3070577447314194755",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=3070577447314194755&engine=google_scholar&hl=en&num=12"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:QwF9cuvhnCoJ:scholar.google.com/&scioq=Coffee&hl=en&num=12&as_sdt=0,44",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=related%3AQwF9cuvhnCoJ%3Ascholar.google.com%2F"
+        }
+      },
+      {
+        "position": 4,
+        "title": "All about coffee",
+        "result_id": "RAe9DEwU4KQJ",
+        "type": "Book",
+        "link": "https://books.google.com/books?hl=en&lr=&id=4O_RAAAAMAAJ&oi=fnd&pg=PP31&dq=Coffee&ots=QheAIbgVe_&sig=CB0UG9o51MgdFcSHDwZzQx65Jfk",
+        "snippet": "… a book on coffee. Subsequently he spent a year in travel among the coffee-producing countries… Among the unique features of the book are the Coffee Thesaurus; the Coffee Chronology, …",
+        "publication_info": {
+          "summary": "WH Ukers - 1922 - books.google.com"
+        },
+        "resources": [
+          {
+            "title": "google.com",
+            "file_format": "HTML",
+            "link": "https://books.google.com/books?hl=en&lr=&id=4O_RAAAAMAAJ&oi=fnd&pg=PP31&dq=Coffee&ots=QheAIbgVe_&sig=CB0UG9o51MgdFcSHDwZzQx65Jfk"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=RAe9DEwU4KQJ",
+          "html_version": "https://books.google.com/books?hl=en&lr=&id=4O_RAAAAMAAJ&oi=fnd&pg=PP31&dq=Coffee&ots=QheAIbgVe_&sig=CB0UG9o51MgdFcSHDwZzQx65Jfk",
+          "cited_by": {
+            "total": 566,
+            "link": "https://scholar.google.com/scholar?cites=11880518133867153220&as_sdt=5,44&sciodt=0,44&hl=en&num=12",
+            "cites_id": "11880518133867153220",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=11880518133867153220&engine=google_scholar&hl=en&num=12"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:RAe9DEwU4KQJ:scholar.google.com/&scioq=Coffee&hl=en&num=12&as_sdt=0,44",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=related%3ARAe9DEwU4KQJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 8,
+            "link": "https://scholar.google.com/scholar?cluster=11880518133867153220&hl=en&num=12&as_sdt=0,44",
+            "cluster_id": "11880518133867153220",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&cluster=11880518133867153220&engine=google_scholar&hl=en&num=12"
+          }
+        }
+      },
+      {
+        "position": 5,
+        "title": "A history of coffee",
+        "result_id": "ORYR1qBPK_cJ",
+        "link": "https://link.springer.com/chapter/10.1007/978-1-4615-6657-1_1",
+        "snippet": "… on my own experience with coffee, I am … coffee blend with accepted facts. I trust that this chapter will provide the reader with an interesting and fascinating account of the story of coffee …",
+        "publication_info": {
+          "summary": "RF Smith - Coffee: botany, biochemistry and production of beans …, 1985 - Springer"
+        },
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=ORYR1qBPK_cJ",
+          "cited_by": {
+            "total": 148,
+            "link": "https://scholar.google.com/scholar?cites=17810416703571564089&as_sdt=5,44&sciodt=0,44&hl=en&num=12",
+            "cites_id": "17810416703571564089",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=17810416703571564089&engine=google_scholar&hl=en&num=12"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:ORYR1qBPK_cJ:scholar.google.com/&scioq=Coffee&hl=en&num=12&as_sdt=0,44",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=related%3AORYR1qBPK_cJ%3Ascholar.google.com%2F"
+        }
+      },
+      {
+        "position": 6,
+        "title": "Coffee and health: a review of recent human research",
+        "result_id": "fSVlrXX7dIUJ",
+        "link": "https://www.tandfonline.com/doi/abs/10.1080/10408390500400009",
+        "snippet": "… coffee during brewing, but are mostly removed from coffee by … coffee, Turkish coffee, and French press (cafetiere) coffee … while filtered coffee, percolated coffee, and instant coffee contain …",
+        "publication_info": {
+          "summary": "JV Higdon, B Frei - Critical reviews in food science and nutrition, 2006 - Taylor & Francis",
+          "authors": [
+            {
+              "name": "B Frei",
+              "link": "https://scholar.google.com/citations?user=H_Fk05wAAAAJ&hl=en&num=12&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=H_Fk05wAAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "H_Fk05wAAAAJ"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "tandfonline.com",
+            "file_format": "PDF",
+            "link": "https://www.tandfonline.com/doi/pdf/10.1080/10408390500400009"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=fSVlrXX7dIUJ",
+          "cited_by": {
+            "total": 1550,
+            "link": "https://scholar.google.com/scholar?cites=9616587587181684093&as_sdt=5,44&sciodt=0,44&hl=en&num=12",
+            "cites_id": "9616587587181684093",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=9616587587181684093&engine=google_scholar&hl=en&num=12"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:fSVlrXX7dIUJ:scholar.google.com/&scioq=Coffee&hl=en&num=12&as_sdt=0,44",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=related%3AfSVlrXX7dIUJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 17,
+            "link": "https://scholar.google.com/scholar?cluster=9616587587181684093&hl=en&num=12&as_sdt=0,44",
+            "cluster_id": "9616587587181684093",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&cluster=9616587587181684093&engine=google_scholar&hl=en&num=12"
+          }
+        }
+      },
+      {
+        "position": 7,
+        "title": "The chemical components of coffee",
+        "result_id": "Ruji3rxKhugJ",
+        "link": "https://www.taylorfrancis.com/chapters/edit/10.1201/9780429126789-6/chemical-components-coffee-monica-alton-spiller",
+        "snippet": "… coffee chemistry is made easier by remembering that the coffee bean is the seed of the coffee … Roasting the coffee bean will result in thermal transformation of the plant materials. Plant …",
+        "publication_info": {
+          "summary": "MA Spiller - Caffeine, 2019 - taylorfrancis.com"
+        },
+        "resources": [
+          {
+            "title": "researchgate.net",
+            "file_format": "PDF",
+            "link": "https://www.researchgate.net/profile/Stanley-Tarka/publication/16798941_Analytical_Methods_for_Quantitation_of_Methylxanthines/links/0deec5190db0140fad000000/Analytical-Methods-for-Quantitation-of-Methylxanthines.pdf#page=105"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Ruji3rxKhugJ",
+          "cited_by": {
+            "total": 263,
+            "link": "https://scholar.google.com/scholar?cites=16755161638732228678&as_sdt=5,44&sciodt=0,44&hl=en&num=12",
+            "cites_id": "16755161638732228678",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=16755161638732228678&engine=google_scholar&hl=en&num=12"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:Ruji3rxKhugJ:scholar.google.com/&scioq=Coffee&hl=en&num=12&as_sdt=0,44",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=related%3ARuji3rxKhugJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 8,
+            "link": "https://scholar.google.com/scholar?cluster=16755161638732228678&hl=en&num=12&as_sdt=0,44",
+            "cluster_id": "16755161638732228678",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&cluster=16755161638732228678&engine=google_scholar&hl=en&num=12"
+          },
+          "cached_page_link": "https://scholar.googleusercontent.com/scholar?q=cache:Ruji3rxKhugJ:scholar.google.com/+Coffee&hl=en&num=12&as_sdt=0,44"
+        }
+      },
+      {
+        "position": 8,
+        "title": "The complexity of coffee",
+        "result_id": "xG1eJ_9tvuUJ",
+        "link": "https://www.jstor.org/stable/26059726",
+        "snippet": "A good rainfall induces arabica coffee plants to blossom, and some 210 days afterward red or yellow fruit called cherries appear. Each cherry contains two oblong seeds—the coffee …",
+        "publication_info": {
+          "summary": "E Illy - Scientific American, 2002 - JSTOR"
+        },
+        "resources": [
+          {
+            "title": "catayvinos.es",
+            "file_format": "PDF",
+            "link": "https://www.catayvinos.es/goto/http://poplab.stanford.edu/pdfs/Illy-ComplexityCoffee-sciam02.pdf"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=xG1eJ_9tvuUJ",
+          "cited_by": {
+            "total": 146,
+            "link": "https://scholar.google.com/scholar?cites=16554790222905109956&as_sdt=5,44&sciodt=0,44&hl=en&num=12",
+            "cites_id": "16554790222905109956",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=16554790222905109956&engine=google_scholar&hl=en&num=12"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:xG1eJ_9tvuUJ:scholar.google.com/&scioq=Coffee&hl=en&num=12&as_sdt=0,44",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=related%3AxG1eJ_9tvuUJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 19,
+            "link": "https://scholar.google.com/scholar?cluster=16554790222905109956&hl=en&num=12&as_sdt=0,44",
+            "cluster_id": "16554790222905109956",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&cluster=16554790222905109956&engine=google_scholar&hl=en&num=12"
+          }
+        }
+      },
+      {
+        "position": 9,
+        "title": "Coffee: recent developments",
+        "result_id": "31GOrHWBl_AJ",
+        "type": "Book",
+        "link": "https://books.google.com/books?hl=en&lr=&id=jIFY_Pz8LH0C&oi=fnd&pg=PR3&dq=Coffee&ots=ODGtSkivVL&sig=JYWUcoB1RzHU2BSwVB0h-aQOYsA",
+        "snippet": "… The physiological effects of coffee drinking are considered in a fascinating chapter on coffee and health. Agronomic aspects of coffee breeding and growing are covered specifically in …",
+        "publication_info": {
+          "summary": "R Clarke, OG Vitzthum - 2008 - books.google.com",
+          "authors": [
+            {
+              "name": "R Clarke",
+              "link": "https://scholar.google.com/citations?user=emScaM4AAAAJ&hl=en&num=12&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=emScaM4AAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "emScaM4AAAAJ"
+            }
+          ]
+        },
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=31GOrHWBl_AJ",
+          "cited_by": {
+            "total": 307,
+            "link": "https://scholar.google.com/scholar?cites=17336467632992178655&as_sdt=5,44&sciodt=0,44&hl=en&num=12",
+            "cites_id": "17336467632992178655",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=17336467632992178655&engine=google_scholar&hl=en&num=12"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:31GOrHWBl_AJ:scholar.google.com/&scioq=Coffee&hl=en&num=12&as_sdt=0,44",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=related%3A31GOrHWBl_AJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 4,
+            "link": "https://scholar.google.com/scholar?cluster=17336467632992178655&hl=en&num=12&as_sdt=0,44",
+            "cluster_id": "17336467632992178655",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&cluster=17336467632992178655&engine=google_scholar&hl=en&num=12"
+          }
+        }
+      },
+      {
+        "position": 10,
+        "title": "Coffee: Volume 2: Technology",
+        "result_id": "Jt15QwxlEw0J",
+        "type": "Book",
+        "link": "https://books.google.com/books?hl=en&lr=&id=NlcGCAAAQBAJ&oi=fnd&pg=PR5&dq=Coffee&ots=uew_oBBdHq&sig=750Bu8UE54wSpeb5k-lGWGP_bNM",
+        "snippet": "… The choice of green coffees from an almost … the coffee cherry to the green coffee bean, needs understanding and guidance. Furthermore, various forms of pre-treatment of green coffee …",
+        "publication_info": {
+          "summary": "RJ Clarke - 2012 - books.google.com"
+        },
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=Jt15QwxlEw0J",
+          "cited_by": {
+            "total": 331,
+            "link": "https://scholar.google.com/scholar?cites=942207850396638502&as_sdt=5,44&sciodt=0,44&hl=en&num=12",
+            "cites_id": "942207850396638502",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=942207850396638502&engine=google_scholar&hl=en&num=12"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:Jt15QwxlEw0J:scholar.google.com/&scioq=Coffee&hl=en&num=12&as_sdt=0,44",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=related%3AJt15QwxlEw0J%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 4,
+            "link": "https://scholar.google.com/scholar?cluster=942207850396638502&hl=en&num=12&as_sdt=0,44",
+            "cluster_id": "942207850396638502",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&cluster=942207850396638502&engine=google_scholar&hl=en&num=12"
+          }
+        }
+      },
+      {
+        "position": 11,
+        "title": "Coffee and conservation",
+        "result_id": "gjYCLXwlfjsJ",
+        "link": "https://www.jstor.org/stable/3095302",
+        "snippet": "… coffee were to encourage growers to convert sites that are currently in sun coffee to shade coffee, … The goal of the shade-coffee campaign is to encourage consumers to pay more for …",
+        "publication_info": {
+          "summary": "JH Rappole, DI King, JHV Rivera - Conservation biology, 2003 - JSTOR",
+          "authors": [
+            {
+              "name": "DI King",
+              "link": "https://scholar.google.com/citations?user=3EBXHc4AAAAJ&hl=en&num=12&oi=sra",
+              "serpapi_scholar_link": "https://serpapi.com/search.json?author_id=3EBXHc4AAAAJ&engine=google_scholar_author&hl=en",
+              "author_id": "3EBXHc4AAAAJ"
+            }
+          ]
+        },
+        "resources": [
+          {
+            "title": "si.edu",
+            "file_format": "PDF",
+            "link": "https://repository.si.edu/bitstream/handle/10088/8348/8da4e45e-4ffb-421c-ad67-51aeb685c8b1.pdf?sequence=1&isAllowed=y"
+          }
+        ],
+        "inline_links": {
+          "serpapi_cite_link": "https://serpapi.com/search.json?engine=google_scholar_cite&hl=en&q=gjYCLXwlfjsJ",
+          "cited_by": {
+            "total": 228,
+            "link": "https://scholar.google.com/scholar?cites=4286905110564583042&as_sdt=5,44&sciodt=0,44&hl=en&num=12",
+            "cites_id": "4286905110564583042",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=5%2C44&cites=4286905110564583042&engine=google_scholar&hl=en&num=12"
+          },
+          "related_pages_link": "https://scholar.google.com/scholar?q=related:gjYCLXwlfjsJ:scholar.google.com/&scioq=Coffee&hl=en&num=12&as_sdt=0,44",
+          "serpapi_related_pages_link": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=related%3AgjYCLXwlfjsJ%3Ascholar.google.com%2F",
+          "versions": {
+            "total": 13,
+            "link": "https://scholar.google.com/scholar?cluster=4286905110564583042&hl=en&num=12&as_sdt=0,44",
+            "cluster_id": "4286905110564583042",
+            "serpapi_scholar_link": "https://serpapi.com/search.json?as_sdt=0%2C44&cluster=4286905110564583042&engine=google_scholar&hl=en&num=12"
+          }
+        }
+      }
+    ],
+    "related_searches": [
+      {
+        "query": "coffee shop",
+        "link": "https://scholar.google.com/scholar?hl=en&num=12&as_sdt=0,44&qsp=1&q=coffee+shop&qst=ib"
+      },
+      {
+        "query": "coffee consumption",
+        "link": "https://scholar.google.com/scholar?hl=en&num=12&as_sdt=0,44&qsp=2&q=coffee+consumption&qst=ib"
+      },
+      {
+        "query": "coffee grounds",
+        "link": "https://scholar.google.com/scholar?hl=en&num=12&as_sdt=0,44&qsp=3&q=coffee+grounds&qst=ib"
+      },
+      {
+        "query": "coffee beans",
+        "link": "https://scholar.google.com/scholar?hl=en&num=12&as_sdt=0,44&qsp=4&q=coffee+beans&qst=ib"
+      },
+      {
+        "query": "coffee caffeine",
+        "link": "https://scholar.google.com/scholar?hl=en&num=12&as_sdt=0,44&qsp=5&q=coffee+caffeine&qst=ib"
+      },
+      {
+        "query": "spent coffee",
+        "link": "https://scholar.google.com/scholar?hl=en&num=12&as_sdt=0,44&qsp=6&q=spent+coffee&qst=ib"
+      },
+      {
+        "query": "starbucks coffee",
+        "link": "https://scholar.google.com/scholar?hl=en&num=12&as_sdt=0,44&qsp=7&q=starbucks+coffee&qst=ib"
+      },
+      {
+        "query": "arabica coffee",
+        "link": "https://scholar.google.com/scholar?hl=en&num=12&as_sdt=0,44&qsp=8&q=arabica+coffee&qst=ib"
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": "https://scholar.google.com/scholar?start=12&q=Coffee&hl=en&num=12&as_sdt=0,44",
+      "other_pages": {
+        "2": "https://scholar.google.com/scholar?start=12&q=Coffee&hl=en&num=12&as_sdt=0,44",
+        "3": "https://scholar.google.com/scholar?start=24&q=Coffee&hl=en&num=12&as_sdt=0,44",
+        "4": "https://scholar.google.com/scholar?start=36&q=Coffee&hl=en&num=12&as_sdt=0,44",
+        "5": "https://scholar.google.com/scholar?start=48&q=Coffee&hl=en&num=12&as_sdt=0,44",
+        "6": "https://scholar.google.com/scholar?start=60&q=Coffee&hl=en&num=12&as_sdt=0,44",
+        "7": "https://scholar.google.com/scholar?start=72&q=Coffee&hl=en&num=12&as_sdt=0,44",
+        "8": "https://scholar.google.com/scholar?start=84&q=Coffee&hl=en&num=12&as_sdt=0,44",
+        "9": "https://scholar.google.com/scholar?start=96&q=Coffee&hl=en&num=12&as_sdt=0,44",
+        "10": "https://scholar.google.com/scholar?start=108&q=Coffee&hl=en&num=12&as_sdt=0,44"
+      }
+    },
+    "serpapi_pagination": {
+      "current": 1,
+      "next_link": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=Coffee&start=12",
+      "next": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=Coffee&start=12",
+      "other_pages": {
+        "2": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=Coffee&start=12",
+        "3": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=Coffee&start=24",
+        "4": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=Coffee&start=36",
+        "5": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=Coffee&start=48",
+        "6": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=Coffee&start=60",
+        "7": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=Coffee&start=72",
+        "8": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=Coffee&start=84",
+        "9": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=Coffee&start=96",
+        "10": "https://serpapi.com/search.json?as_sdt=0%2C44&engine=google_scholar&hl=en&num=12&q=Coffee&start=108"
+      }
+    }
+  }
