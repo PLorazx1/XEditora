@@ -1,29 +1,27 @@
 // Constante a seguir precisa definir para a execução normal
 const IDbusca = 'Exemplo';
 
-function CriarURL(pesquisa){
-    let dominio = 'https://serpapi.com/search?engine=google_scholar&';
-    let pag = '&hl=pt-br&lr=pt-br&num=12';
-    let url = dominio + pesquisa + pag;
-    return url;
-}
-
-async function ChamadaAPI(url){
-    let resultado = await fetch(url);
-    console.log(resultado);
-}
+const { getJson } = require("serpapi");
 
 function Busca(){
-    let Busca, URL;
+    let Busca, resultado;
     // Busca = document.getElementById(IDbusca).value;
     Busca = 'café';
     if (Busca.length == 0 || Busca == ' '){
-        // função para erros - a definir
-        console.log('Chegou aki');
+      // função para erros - a definir
+      console.log('Campo vazio..');
     } else {
-        // pagina indicadora de pesquisa
-        URL = CriarURL(Busca);
-        ChamadaAPI(URL);
+      Busca += ' livro';
+      // pagina indicadora de pesquisa
+      getJson({
+        api_key: "ca0de54a49d6977b45e9e6c8857ee028e996d04de7f95bcea9f1ada77bc99039",
+        engine: "google_scholar",
+        q: Busca,
+        hl: "pt-br",
+        num: "12"
+      }, (json) => { // função arrow para realizar o tratamento de dados
+        resultado = json;
+      });
     }
 }
 
