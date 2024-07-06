@@ -12,12 +12,11 @@ function tratamento(caminho){
 }
 
 function Busca(){
-  let Busca, resultado;
+  let Busca;
   // Busca = document.getElementById(IDbusca).value;
   Busca = 'café';
   if (Busca.length == 0 || Busca == ' ') {
-    // função para erros - a definir
-    console.log('Campo vazio..');
+    alert("Erro!\nDigite algo no campo de pesquisa")
   } else {
     Busca += ' livro';
     // pagina indicadora de pesquisa
@@ -27,8 +26,8 @@ function Busca(){
       q: Busca,
       hl: "pt-br",
       num: "12"
-    }, (json) => { // função arrow para realizar o tratamento de dados
-      resultado = json;
+    }, (json) => { 
+      // função arrow para realizar o tratamento de dados
     });
   }
 }
