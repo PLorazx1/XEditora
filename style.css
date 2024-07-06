@@ -4,6 +4,10 @@
     margin: 0px;
 }
 
+body{
+    background-color: #E7DFF2;
+}
+
 header{
     background-color: #010D00;
     min-height: 200px;
@@ -20,4 +24,47 @@ header{
     width: 150px;
     height: 150px;
     margin-top: 25px;
+}
+
+nav{
+    background-color: #1C1526;
+    min-height: 45px;
+    max-height: 50px;
+}
+
+#AreaPesq{
+    min-height: 35px;
+    max-height: 40px;
+    min-width: 200px;
+    max-width: 250px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    background-color: white;
+}
+
+#PesqLivro{
+    min-height: 35px;
+    max-height: 40px;
+    min-width: 35px;
+    max-width: 40px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+nav > ul{
+    display: inline;
+    list-style: none;
+}
+
+nav > ul > li{
+    display: inline-block;
+    padding-left: 30px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: #E7DFF2;
 }
