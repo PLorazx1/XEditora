@@ -1,5 +1,7 @@
 // Constante a seguir precisa definir para a execução normal
-const IDbusca = 'Exemplo';
+const IDbusca = '';
+const chaveAPI = 'ca0de54a49d6977b45e9e6c8857ee028e996d04de7f95bcea9f1ada77bc99039';
+const lingua = 'pt-br';
 
 const { getJson } = require("serpapi");
 
@@ -21,10 +23,10 @@ function Busca(){
     Busca += ' livro';
     // pagina indicadora de pesquisa
     getJson({
-      api_key: "ca0de54a49d6977b45e9e6c8857ee028e996d04de7f95bcea9f1ada77bc99039",
+      api_key: chaveAPI,
       engine: "google_scholar",
       q: Busca,
-      hl: "pt-br",
+      hl: lingua,
       num: "12"
     }, (json) => { 
       // função arrow para realizar o tratamento de dados
