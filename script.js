@@ -1,5 +1,6 @@
 //constantes iniciais:
 const IDbusca = ''; //a definir
+const pagInicial = ''; //a definir
 const chaveAPI = 'ca0de54a49d6977b45e9e6c8857ee028e996d04de7f95bcea9f1ada77bc99039'; //sujeito a alteração
 const lingua = 'pt-br';
 const segsEspera = 10; //em segundos
@@ -24,10 +25,13 @@ function Busca() {
     alert("Erro!\nDigite algo no campo de pesquisa")
   } else {
     Busca += ' livro';
-    // pagina indicadora de pesquisa
+    // pagina indicadora de pesquisa??
     //função de verificar o tempo:
     setTimeout(() => {
-      if(localStorage.length == 0) alert(msgTempEsg);
+      if(localStorage.length == 0) {
+        alert(msgTempEsg);
+        window.location = pagInicial;
+      }
     }, segsEspera * 1000);
     //chamada da API:
     getJson({
