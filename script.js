@@ -1,6 +1,7 @@
 //constantes iniciais:
 const IDbusca = ''; //a definir
 const IDPagResult = ''; //a definir
+const IDPaginacao = ''; //a definir
 const pagInicial = ''; //a definir
 const chaveAPI = 'ca0de54a49d6977b45e9e6c8857ee028e996d04de7f95bcea9f1ada77bc99039'; //sujeito a alteração
 const lingua = 'pt-br';
@@ -12,12 +13,18 @@ const { getJson } = require("serpapi");
 
 //função para criar a pagina de resultados:
 function PagResult(){
-  let div = document.getElementById(IDPagResult);
+  let divResultados = document.getElementById(IDPagResult);
+  //criação cada resultado:
   for(i=0; i<12; i++){
     let resultado = JSON.parse(localStorage.getItem('resultados'))[i];
-    let CodHTML = ``; //Codigo para criar cada resultado
-    div.innerHTML += CodHTML;
+    let CodHTML = ``; // Codigo para criar cada resultado
+    divResultados.innerHTML += CodHTML;
   }
+  //criação da paginação:
+  let divPaginacao = document.getElementById(IDPaginacao);
+  let paginas = JSON.parse(localStorage.getItem('paginacao'));
+  CodHTML = ``; // Codigo para criar a paginacao
+  divPaginacao.innerHTML += CodHTML;
 }
 
 function Busca() {
