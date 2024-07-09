@@ -1,6 +1,6 @@
-// Constante a seguir precisa definir para a execução normal
-const IDbusca = '';
-const chaveAPI = 'ca0de54a49d6977b45e9e6c8857ee028e996d04de7f95bcea9f1ada77bc99039';
+// constantes iniciais
+const IDbusca = ''; //a definir
+const chaveAPI = 'ca0de54a49d6977b45e9e6c8857ee028e996d04de7f95bcea9f1ada77bc99039'; //sujeito a alteração
 const lingua = 'pt-br';
 const segsEspera = 10; //em segundos
 
@@ -18,14 +18,17 @@ function Busca(){
   let Busca;
   // Busca = document.getElementById(IDbusca).value;
   Busca = 'café';
+  //verificação se o campo de busca está vazio:
   if (Busca.length == 0 || Busca == ' ') {
     alert("Erro!\nDigite algo no campo de pesquisa")
   } else {
     Busca += ' livro';
     // pagina indicadora de pesquisa
-    setTimeout(() => { //função de verificar o tempo
+    //função de verificar o tempo:
+    setTimeout(() => {
       //função arrow para testar se chegou
     }, segsEspera*1000);
+    //chamada da API:
     getJson({
       api_key: chaveAPI,
       engine: "google_scholar",
@@ -37,5 +40,3 @@ function Busca(){
     });
   }
 }
-
-tratamento("result.json");
