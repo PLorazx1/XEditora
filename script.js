@@ -1,8 +1,9 @@
 //constantes iniciais:
 const IDbusca = ''; //a definir
-const IDPagResult = ''; //a definir
+const IDdivResultados = ''; //a definir
 const IDPaginacao = ''; //a definir
 const pagInicial = ''; //a definir
+const pagResultados = ''; //a definir
 const chaveAPI = 'ca0de54a49d6977b45e9e6c8857ee028e996d04de7f95bcea9f1ada77bc99039'; //sujeito a alteração
 const lingua = 'pt-br';
 const segsEspera = 10; //em segundos
@@ -11,9 +12,16 @@ const msgCampVazio = 'Erro!\nDigite algo no campo de pesquisa';
 
 const { getJson } = require("serpapi");
 
+//função para salvar o json no Client-Side e mudar para pagResultados:
+function InitTratamento(json){
+  localStorage.setItem('resultados', JSON.stringify(json.organic_results));
+  localStorage.setItem('paginacao', JSON.stringify(json.serpapi_pagination));
+  window.location = pagResultados;
+}
+
 //função para criar a pagina de resultados:
-function PagResult(){
-  let divResultados = document.getElementById(IDPagResult);
+function Tratamento(){
+  let divResultados = document.getElementById(IDdivResultados);
   //criação cada resultado:
   for(i=0; i<12; i++){
     let resultado = JSON.parse(localStorage.getItem('resultados'))[i];
@@ -23,7 +31,7 @@ function PagResult(){
   //criação da paginação:
   let divPaginacao = document.getElementById(IDPaginacao);
   let paginas = JSON.parse(localStorage.getItem('paginacao'));
-  CodHTML = ``; // Codigo para criar a paginacao
+  CodHTML = ``; // Codigo para criar a paginacao --- OBS: vai chamar a função InitTratamento(link)
   divPaginacao.innerHTML += CodHTML;
 }
 
@@ -52,10 +60,7 @@ function Busca() {
       hl: lingua,
       num: "12"
     }, (json) => {
-      //salvando o json no client-side:
-      localStorage.setItem('resultados', JSON.stringify(json.organic_results));
-      localStorage.setItem('paginacao', JSON.stringify(json.serpapi_pagination));
-      PagResult();
+      InitTratamento(json);
     });
   }
 }
