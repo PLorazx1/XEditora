@@ -15,23 +15,34 @@
 <body>
     <header>
         <div  id="LogoTopo"><img src="imagens/logo-xeditora-200px.png" alt="Logo da empresa X Editora"></div>
-        <div id="PesqGeral">
-            <input type="search" name="PesqLivro" id="AreaPesq">
-            <input type="button" value="&#x1F50D" id="PesqLivro">
-        </div>
         <nav>
+            <div id="PesqGeral">
+                <input type="search" name="PesqLivro" id="AreaPesq">
+                <input type="button" value="&#x1F50D" id="PesqLupa">
+            </div>
             <div id="NavMenu">
                 <a href="#">Quem somos?</a>
                 <a href="#">Contato</a>
             </div>
         </nav>
     </header>
-    <section>
+    <main>
+        <section id="ImgCapa">
+            <source media="(max-width: 550)" srcset="imagens/livro-escrito-500" type="image/png">
+            <source media="(max-width: 750)" srcset="imagens/livro-escrito-700" type="image/png">
+            <source media="(max-width: 950)" srcset="imagens/livro-escrito-900" type="image/png">
+            <source media="(max-width: 1150)" srcset="imagens/livro-escrito-1100" type="image/png">
+            <img src="imagens/livro-escrito-1500.png" alt="Livros em uma estante com uma frase escrita na frente 'Sua biblioteca online...'">
+        </section>
+        <h2>QUEM SOMOS?</h2>
+        <article id="DesQS">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis laboriosam ad nulla expedita nesciunt non repellendus aliquam doloremque maxime fuga deserunt officia perferendis eum impedit, velit quis numquam reiciendis fugiat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, et. Consequatur dolorem recusandae sequi similique error enim deleniti qui dolores excepturi rerum explicabo fuga, impedit</p>
 
-    </section>
-    <article>
+            <p>necessitatibus ipsa placeat maxime quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe expedita a commodi debitis possimus accusamus cumque voluptatum eum temporibus reiciendis perspiciatis, ea quidem recusandae laborum voluptas. Optio corporis consequatur autem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptates nam, sint debitis aspernatur dolor amet commodi inventore quaerat excepturi asperiores recusandae enim labore consectetur itaque suscipit,neque totam providen Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit facilis praesentium minima temporibus</p>
 
-    </article>
+            <p>perspiciatis, sit non omnis numquam cumque eius voluptatem natus soluta a laborum fugit voluptas tempora quos dolor. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum iure, earum adipisci sequi quae similique ipsa nulla maiores perferendis ex? Dicta odio exercitationem nam hic magni totam tempora praesentium nostrum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eveniet fugit eum autem, accusantium ipsam perspiciatis praesentium ut est ad cupiditate! Quisquam eum laboriosam rem explicabo consectetur dolorum qui vero.</p>
+        </article>
+    </main>
     <footer>
 
     </footer>
