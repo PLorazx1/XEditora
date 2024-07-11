@@ -10,7 +10,7 @@ body{
 
 header{
     background-color: #010D00;
-    min-height: 200px;
+    min-height: 240px;
     max-height: 250px;
 }
 
@@ -28,40 +28,44 @@ header{
 
 nav{
     background-color: #1C1526;
-    min-height: 45px;
-    max-height: 50px;
+    min-height: 55px;
+    max-height: 60px;
+    text-align: right;
 }
 #AreaPesq{
-    min-height: 35px;
-    max-height: 40px;
-    min-width: 200px;
-    max-width: 250px;
+    min-height: 40px;
+    max-height: 45px;
+    min-width: 230px;
+    max-width: 300px;
     border-radius: 5px;
     margin-left: 5%;
+    margin-right: 5px;
     background-color: white;
+    border-style: none;
+    box-shadow: none;
 }
 
 #PesqLivro{
-    min-height: 35px;
-    max-height: 40px;
-    min-width: 35px;
-    max-width: 40px;
+    min-height: 40px;
+    max-height: 45px;
+    min-width: 40px;
+    max-width: 45px;
     border-radius: 5px;
     background-color: white;
+    border-style: none;
+    box-shadow: none;
 }
 
-nav > ul{
-    text-align: right;
-}
-
-nav > ul > li{
+#PesqGeral{
     display: inline;
+}
+
+#NavMenu{
+    display: inline;
+    text-decoration: none;
     text-align: right;
 }
 
-nav > ul > li > a{
+#NavMenu > a{
     text-decoration: none;
-    color: #ffffff;
-    padding-left: 30px;
-    text-align: right;
 }
