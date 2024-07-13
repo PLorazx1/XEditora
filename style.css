@@ -111,17 +111,26 @@ nav{
 }
 
 main > h2{
-    margin: 20px;
+    margin-top: 60px;
+    margin-bottom: 20px;
     text-align: center;
-    font-family: var(--font-patrick-hand);
+    font-family: var(--font-kanit);
+    font-weight: 100;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 1px #0d0d0d50;
 }
 
 #DesQS{
     background-color: var(--cor2);
-    min-width: 300px;
+    min-width: 200px;
     max-width: 800px;
-    padding: 20px;
-    text-align: left;
+    min-height: 200px;
+    max-height: 800px;
+    padding: 30px;
     color: var(--cor1);
     text-indent: 2%;
+    margin: auto;
+    border-radius: 10px;
 }
+
+
