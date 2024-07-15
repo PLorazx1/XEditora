@@ -15,27 +15,32 @@
 <body>
     <header>
         <div  id="LogoTopo"><img src="imagens/logo-xeditora-200px.png" alt="Logo da empresa X Editora"></div>
-        <nav>
-            <div id="PesqGeral">
-                <input type="search" name="PesqLivro" id="AreaPesq">
-                <input type="button" value="&#x1F50D" id="PesqLupa">
-            </div>
-            <div id="NavMenu">
-                <a href="#">Quem somos?</a>
-                <a href="#">Contato</a>
-            </div>
-        </nav>
     </header>
+    <nav>
+        <div id="NavMenu">
+            <a href="#">Home</a>
+            <a href="#DesQS">Quem somos?</a>
+            <a href="#">Fale Conosco</a>
+        </div>
+        <div id="PesqGeral">
+            <input type="search" name="PesqLivro" id="AreaPesq">
+            <input type="button" value="&#x1F50D" id="PesqLupa">
+        </div>
+    </nav>
     <main>
-        <section id="ImgCapa">
-            <source media="(max-width: 550)" srcset="imagens/livros-img-capa-500" type="image/jpg">
-            <source media="(max-width: 750)" srcset="imagens/livros-img-capa-700" type="image/jpg">
-            <source media="(max-width: 950)" srcset="imagens/livros-img-capa-900" type="image/jpg">
-            <source media="(max-width: 1150)" srcset="imagens/livros-img-capa-1100" type="image/jpg">
-            <img src="imagens/livros-img-capa-1500.jpg" alt="Livros em uma estante com uma frase escrita na frente 'Sua biblioteca online...'">
+        <section>
+            <picture id="ImgCapa">
+                <source media="(max-width: 550)" srcset="imagens/livros-img-capa-500" type="image/jpg">
+                <source media="(max-width: 750)" srcset="imagens/livros-img-capa-700" type="image/jpg">
+                <source media="(max-width: 950)" srcset="imagens/livros-img-capa-900" type="image/jpg">
+                <source media="(max-width: 1150)" srcset="imagens/livros-img-capa-1100" type="image/jpg">
+                <img src="imagens/livros-img-capa-1500.jpg" alt="Livros em uma estante">
+            </picture>
         </section>
-        <h2>QUEM SOMOS?</h2>
         <article id="DesQS">
+
+            <h2>QUEM SOMOS?</h2>
+
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis laboriosam ad nulla expedita nesciunt non repellendus aliquam doloremque maxime fuga deserunt officia perferendis eum impedit, velit quis numquam reiciendis fugiat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, et. Consequatur dolorem recusandae sequi similique error enim deleniti qui dolores excepturi rerum explicabo fuga, impedit Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni suscipit, recusandae debitis nostrum, cumque deleniti numquam dolores nulla aliquam sit non assumenda et eos cum a ex, laudantium libero dolore?</p>
 
             <p>necessitatibus ipsa placeat maxime quasi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe expedita a commodi debitis possimus accusamus cumque voluptatum eum temporibus reiciendis perspiciatis, ea quidem recusandae laborum voluptas. Optio corporis consequatur autem? Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptates nam, sint debitis aspernatur dolor amet commodi inventore quaerat excepturi asperiores recusandae enim labore consectetur itaque suscipit,neque totam providen Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit facilis praesentium minima temporibus</p>
@@ -44,9 +49,11 @@
         </article>
     </main>
     <footer>
-        <div id="rodape"><img src="imagens/logo-xeditora-100px.png" alt=""></div>
-        <p>E-mail: xeditora@gmail.com</p>
-        <p>Contato: (91) 99999-0000</p>
+        <div id="LogoBaixo"><img src="imagens/logo-xeditora-100px.png" alt=""></div>
+        <div id="Contatos">
+            <p>E-mail: xeditora@gmail.com</p>
+            <p>Contato: (91) 99999-0000</p>
+        </div>
         <div id="TermUso">Todos os direitos reservados a Xeditora</div>
     </footer>
 </body>
