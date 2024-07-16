@@ -8,6 +8,6 @@ function PorFetch(){
         })
     });
 
-    let variavel = localStorage.getItem('resultados');
-    div.innerHTML = variavel;
+    let variavel = JSON.parse(localStorage.getItem('resultados'));
+    div.innerHTML = variavel[1].snippet;
 }
