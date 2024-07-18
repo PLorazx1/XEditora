@@ -50,6 +50,12 @@ header{
     margin-top: 25px;
 }
 
+menu{
+    background-color: #1C1526;
+    height: 56px;
+    text-align: right;
+}
+
 #MenuBurger{
     padding: 10px;
     background-color: var(--cor2);
@@ -65,11 +71,6 @@ header{
     background-color: var(--cor1);
 }
 
-menu{
-    background-color: #1C1526;
-    height: 56px;
-    text-align: right;
-}
 #AreaPesq{
     min-height: 40px;
     max-height: 45px;
@@ -132,7 +133,6 @@ menu{
 
 main{
     max-width: 1000px;
-    min-height: 1300px;
     background-color: var(--cor1);
     margin: auto;
     border-bottom-right-radius: 10px;
@@ -142,6 +142,11 @@ main{
 }
 
 #ImgCapa > img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#ImgCapaCont > img{
     width: 100%;
     margin-bottom: 50px;
 }
@@ -170,6 +175,42 @@ main{
 
 #DesQS > p{
     padding-bottom: 15px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+#Cont{
+    background-color: var(--cor2);
+    max-width: 800px;
+    min-height: 200px;
+    padding: 30px;
+    color: var(--cor1);
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 10px;
+    font-family: var(--font-padrao);
+    font-size: 1.1em;
+    box-shadow: 0px 7px 18px rgba(0, 0, 0, 0.67);
+}
+
+#Cont > h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: var(--font-patrick-hand);
+    font-weight: bolder;
+    font-size: 2.4em;
+}
+
+.TipoCont{
+    margin-bottom: 5px;
+    text-align: left;
+    font-family: var(--font-patrick-hand);
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.EntreCont{
+    margin-bottom: 30px;
     line-height: 1.2em;
     text-align: left;
 }
