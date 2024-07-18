@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@media screen and  (min-width: 768px){
+    
+    #MenuBurger{
+        display: none;
+    }
+
+    #PesqGeral{
+        display: inline;
+    }
+
+    #NavMenu{
+        display: inline;
+    }
+
+    #NavMenu > a{
+        display: inline;
+        border-radius: 3px;
+    }
+
+    main{
+        margin-top: 7px;
+    }
+}

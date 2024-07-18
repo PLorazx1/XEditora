@@ -27,7 +27,7 @@
 }
 
 body{
-    background-color: #E7DFF2;
+    background-color: #ffffff;
 }
 
 header{
@@ -50,16 +50,30 @@ header{
     margin-top: 25px;
 }
 
-nav{
+#MenuBurger{
+    padding: 10px;
+    background-color: var(--cor2);
+    display: block;
+    color: var(--cor1);
+    font-size: 2em;
+    text-align: center;
+    cursor: pointer;
+}
+
+#MenuBurger:hover{
+    color: var(--cor2);
+    background-color: var(--cor1);
+}
+
+menu{
     background-color: #1C1526;
-    min-height: 55px;
-    max-height: 60px;
+    height: 56px;
     text-align: right;
 }
 #AreaPesq{
     min-height: 40px;
     max-height: 45px;
-    min-width: 230px;
+    min-width: 200px;
     max-width: 300px;
     border-radius: 3px;
     margin-top: 8px;
@@ -77,21 +91,23 @@ nav{
     min-width: 40px;
     max-width: 45px;
     margin-top: 8px;
-    margin-right: 30px;
+    margin-right: 40px;
     border-radius: 3px;
     background-color: white;
-    border-style: none;z
-    box-shadow: none;
+    border-style: none;
     display: inline;
 }
 
 #PesqGeral{
-    display: inline;
+    display: block;
+    background-color: var(--cor2);
+    padding-bottom: 9px;
 }
 
 #NavMenu{
     display: inline;
     text-decoration: none;
+    display: none;
 }
 
 #NavMenu > a{
@@ -103,12 +119,26 @@ nav{
     font-weight: bolder;
     color: var(--cor1);
     transition-duration: 0.3s;
-    border-radius: 3px;
+    display: block;
+    text-align: center;
+    background-color: var(--cor2);
+    width: 100%;
 }
 
 #NavMenu > a:hover{
     background-color: var(--cor1);
     color: var(--cor2);
+}
+
+main{
+    max-width: 1000px;
+    min-height: 1300px;
+    background-color: var(--cor1);
+    margin: auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.291);
+    padding-bottom: 40px;
 }
 
 #ImgCapa > img{
@@ -122,10 +152,12 @@ nav{
     min-height: 200px;
     padding: 30px;
     color: var(--cor1);
-    margin: auto;
+    margin-left: 8%;
+    margin-right: 8%;
     border-radius: 10px;
     font-family: var(--font-padrao);
     font-size: 1.1em;
+    box-shadow: 0px 7px 18px rgba(0, 0, 0, 0.67);
 }
 
 #DesQS > h2{
@@ -139,6 +171,7 @@ nav{
 #DesQS > p{
     padding-bottom: 15px;
     line-height: 1.2em;
+    text-align: left;
 }
 
 footer{
