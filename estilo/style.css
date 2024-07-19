@@ -141,6 +141,10 @@ main{
     padding-bottom: 40px;
 }
 
+#CorpoTermos{
+    padding-top: 50px;
+}
+
 #ImgCapa > img{
     width: 100%;
     margin-bottom: 50px;
@@ -215,6 +219,34 @@ main{
     text-align: left;
 }
 
+#Termos{
+    background-color: var(--cor2);
+    max-width: 800px;
+    min-height: 200px;
+    padding: 30px;
+    color: var(--cor1);
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 10px;
+    font-family: var(--font-padrao);
+    font-size: 1.1em;
+    box-shadow: 0px 7px 18px rgba(0, 0, 0, 0.67);
+}
+
+#Termos > h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: var(--font-patrick-hand);
+    font-weight: bolder;
+    font-size: 2.4em;
+}
+
+#Termos > p{
+    padding-bottom: 15px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
 footer{
     margin-top: 50px;
 }
@@ -239,6 +271,6 @@ footer{
     padding-top: 10px;
     padding-bottom: 15px;
     background-color: var(--cor4);
-    color: var(--cor0);
+    color: white;
     font-family: var(--font-mukta);
 }
