@@ -12,6 +12,16 @@ const msgCampVazio = 'Erro!\nDigite algo no campo de pesquisa';
 
 const { getJson } = require("serpapi");
 
+//Função chamada da API:
+async function ChamaAPI(url, req) {
+  let request = new XMLHttpRequest();
+  request.open('GET', url);
+  request.setRequestHeader('Content-type', 'application/json');
+  request.send(JSON.stringify(req));
+  console.log(request.responseText);
+  return request.responseText
+}
+
 //função para salvar o json no Client-Side e mudar para pagResultados:
 function InitTratamento(json){
   localStorage.setItem('resultados', JSON.stringify(json.organic_results));
@@ -46,21 +56,32 @@ function Busca() {
     Busca += ' livro';
     // pagina indicadora de pesquisa??
     //função de verificar o tempo:
-    setTimeout(() => {
-      if(localStorage.length == 0) {
-        alert(msgTempEsg);
-        window.location = pagInicial;
-      }
-    }, segsEspera * 1000);
-    //chamada da API:
-    getJson({
+    // setTimeout(() => {
+    //   if(localStorage.length == 0) {
+    //     alert(msgTempEsg);
+    //     window.location = pagInicial;
+    //   }
+    // }, segsEspera * 1000);
+    //chamada da API: - modelo novo
+    let requisicao = {
       api_key: chaveAPI,
       engine: "google_scholar",
       q: Busca,
       hl: lingua,
       num: "12"
-    }, (json) => {
-      InitTratamento(json);
-    });
+    }
+    let URL = 'https://serpapi.com/search.html?engine=google_scholar';
+    let resposta = ChamaAPI(URL, requisicao);
+    //Com o modelo antigo:
+    // getJson({
+    //   api_key: chaveAPI,
+    //   engine: "google_scholar",
+    //   q: Busca,
+    //   hl: lingua,
+    //   num: "12"
+    // }, (json) => {
+    //   InitTratamento(json);
+    // });
+    console.log('Cheguei ao final da função');
   }
 }
