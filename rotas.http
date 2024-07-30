@@ -1,0 +1,13 @@
+### Solicitação
+
+POST http://localhost:3000/pesquisa/Café
+
+{
+    "busca": "Café",
+    "lingua": "pt-br",
+    "num": 12
+}
+
+### Home
+
+GET http://localhost:3000/
