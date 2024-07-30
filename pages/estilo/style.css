@@ -1,0 +1,276 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1, 300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mukta:wght@200;300;400;500;600;700;800&family=Patrick+Hand +SC&display=swap');
+
+:root{
+    --cor0: #B6B0BF;
+    --cor1: #E7DFF2;
+    --cor2: #1C1526;
+    --cor3: #0D0D0D;
+    --cor4: #010D00;
+
+    --font-padrao: Arial, Verdana, Helvetica,sans-serif;
+    --font-mukta: 'Mukta', sans-serif;
+    --font-kanit: 'Kanit', sans-serif;
+    --font-patrick-hand: 'Patrick Hand SC', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+header{
+    background-color: #010D00;
+    height: 120px;
+}
+
+#LogoTopo{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+#LogoTopo > img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+menu{
+    background-color: #1C1526;
+    height: 60px;
+    text-align: right;
+}
+
+#MenuBurger{
+    background-color: var(--cor2);
+    display: inline-block;
+    color: var(--cor1);
+    font-size: 2.5em;
+    text-align: right;
+    cursor: pointer;
+    padding: 10px;
+    margin-right: 10px;
+    vertical-align: middle;
+    border-radius: 3px;
+}
+
+#MenuBurger:hover{
+    color: var(--cor2);
+    background-color: var(--cor1);
+}
+
+#AreaPesq{
+    min-height: 40px;
+    max-height: 45px;
+    min-width: 200px;
+    max-width: 300px;
+    border-radius: 3px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+    border-style: none;
+    box-shadow: none;
+    display: inline;
+}
+
+#PesqLupa{
+    min-height: 40px;
+    max-height: 45px;
+    min-width: 40px;
+    max-width: 45px;
+    margin-right: 10px;
+    border-radius: 3px;
+    background-color: white;
+    border-style: none;
+    display: inline;
+}
+
+#PesqGeral{
+    background-color: var(--cor2);
+}
+
+#NavMenu1{
+    display: none;
+}
+
+#NavMenu2{
+    display: inline;
+    text-decoration: none;
+    display: none;
+}
+
+#NavMenu2 > a{
+    text-decoration: none;
+    padding: 15px 5px 17px 5px;
+    margin-right: 30px;
+    font-size: 1.2em;
+    font-family: var(--font-kanit);
+    font-weight: bolder;
+    color: var(--cor1);
+    transition-duration: 0.3s;
+    display: block;
+    text-align: center;
+    background-color: var(--cor2);
+    width: 100%;
+}
+
+#NavMenu2 > a:hover{
+    background-color: var(--cor1);
+    color: var(--cor2);
+}
+
+main{
+    max-width: 1000px;
+    background-color: var(--cor1);
+    margin: auto;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.291);
+    padding-bottom: 40px;
+}
+
+#CorpoTermos{
+    padding-top: 50px;
+}
+
+#ImgCapa > img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#ImgCapaCont > img{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+#DesQS{
+    background-color: var(--cor2);
+    max-width: 800px;
+    min-height: 200px;
+    padding: 30px;
+    color: var(--cor1);
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 10px;
+    font-family: var(--font-padrao);
+    font-size: 1.1em;
+    box-shadow: 0px 7px 18px rgba(0, 0, 0, 0.67);
+}
+
+#DesQS > h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: var(--font-patrick-hand);
+    font-weight: bolder;
+    font-size: 2.4em;
+}
+
+#DesQS > p{
+    padding-bottom: 15px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+#Cont{
+    background-color: var(--cor2);
+    max-width: 800px;
+    min-height: 200px;
+    padding: 30px;
+    color: var(--cor1);
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 10px;
+    font-family: var(--font-padrao);
+    font-size: 1.1em;
+    box-shadow: 0px 7px 18px rgba(0, 0, 0, 0.67);
+}
+
+#Cont > h2{
+    margin-bottom: 50px;
+    text-align: center;
+    font-family: var(--font-patrick-hand);
+    font-weight: bolder;
+    font-size: 2.4em;
+}
+
+.TipoCont{
+    margin-bottom: 5px;
+    text-align: left;
+    font-family: var(--font-patrick-hand);
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+
+.EntreCont{
+    margin-bottom: 30px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+#Termos{
+    background-color: var(--cor2);
+    max-width: 800px;
+    min-height: 200px;
+    padding: 30px;
+    color: var(--cor1);
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 10px;
+    font-family: var(--font-padrao);
+    font-size: 1.1em;
+    box-shadow: 0px 7px 18px rgba(0, 0, 0, 0.67);
+}
+
+#Termos > h2{
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: var(--font-patrick-hand);
+    font-weight: bolder;
+    font-size: 2.4em;
+}
+
+#Termos > p{
+    padding-bottom: 15px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+#LogoBaixo{
+    text-align: center;
+    padding: 10px;
+    background-color: var(--cor2);
+}
+
+#Contatos{
+    background-color: var(--cor2);
+    padding-bottom: 10px;
+    text-align: center;
+    color: var(--cor0);
+    font-family: var(--font-mukta);
+    font-size: 0.8em;
+}
+
+#TermUso{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background-color: var(--cor4);
+    color: white;
+    font-family: var(--font-mukta);
+}

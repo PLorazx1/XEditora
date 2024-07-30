@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@media screen and  (min-width: 768px){
+    
+    header{
+        background-color: #010D00;
+        min-height: 210px;
+        max-height: 250px;
+    }
+    
+    #LogoTopo{
+        min-width: 100px;
+        max-width: 150px;
+        min-height: 100px;
+        max-height: 150px;
+        margin: auto;
+    }
+    
+    #LogoTopo > img{
+        width: 150px;
+        height: 150px;
+        margin-top: 25px;
+    }
+
+    menu{
+        background-color: #1C1526;
+        height: 56px;
+        text-align: right;
+    }
+    
+    #MenuBurger{
+        padding: 10px;
+        background-color: var(--cor2);
+        display: block;
+        color: var(--cor1);
+        font-size: 2em;
+        text-align: right;
+        cursor: pointer;
+        padding-right: 40px;
+    }
+    
+    #MenuBurger:hover{
+        color: var(--cor2);
+        background-color: var(--cor1);
+    }
+    
+    #AreaPesq{
+        min-height: 40px;
+        max-height: 45px;
+        min-width: 200px;
+        max-width: 300px;
+        border-radius: 3px;
+        margin-top: 8px;
+        margin-left: 5px;
+        margin-right: 5px;
+        background-color: white;
+        border-style: none;
+        box-shadow: none;
+        display: inline;
+    }
+    
+    #PesqLupa{
+        min-height: 40px;
+        max-height: 45px;
+        min-width: 40px;
+        max-width: 45px;
+        margin-top: 8px;
+        margin-right: 40px;
+        border-radius: 3px;
+        background-color: white;
+        border-style: none;
+        display: inline;
+    }
+    
+    #PesqGeral{
+        display: inline;
+        background-color: var(--cor2);
+        padding-bottom: 9px;
+    }
+
+    #MenuBurger{
+        display: none;
+    }
+
+    #PesqGeral{
+        display: inline;
+    }
+
+    #NavMenu1{
+        display: inline;
+        text-decoration: none;
+        display: none;
+    }
+    
+    #NavMenu1 > a{
+        text-decoration: none;
+        padding: 15px 5px 17px 5px;
+        margin-right: 30px;
+        font-size: 1.2em;
+        font-family: var(--font-kanit);
+        font-weight: bolder;
+        color: var(--cor1);
+        transition-duration: 0.3s;
+        display: block;
+        text-align: center;
+        background-color: var(--cor2);
+        width: 100%;
+    }
+
+    #NavMenu1 > a:hover{
+        background-color: var(--cor1);
+        color: var(--cor2);
+    }
+
+    #NavMenu1{
+        display: inline;
+    }
+
+    #NavMenu1 > a{
+        display: inline;
+        border-radius: 3px;
+    }
+
+    #NavMenu2{
+        display: none;
+    }
+
+    main{
+        margin-top: 7px;
+    }
+}

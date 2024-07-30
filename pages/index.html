@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Este site tem o intuito de ser uma grande biblioteca online totalmente gratuita!">
+    <meta name="keywords" content="biblioteca, livros, livro, leitura, editora, artigos, google academico, editora, biblioteca online, ler">
+    <meta name="author" content="Yuri Costa Matsuzaki e Paulo Sergio da Silva Loraschi">
+
+    <title>X Editora</title>
+
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="estilo/style-midia.css">
+</head>
+<body onresize="MudouTamanho()">
+    <header id="cabeca">
+        <div  id="LogoTopo"><img src="imagens/logo-xeditora-200px.png" alt="Logo da empresa X Editora"></div>
+    </header>
+    
+    <menu>
+        <div id="NavMenu1">
+            <a href="index.html">Home</a>
+            <a href="#DesQS">Quem somos?</a>
+            <a href="contato.html" rel="next">Fale Conosco</a>
+        </div>
+        
+        <div id="PesqGeral">
+            <input type="search" name="PesqLivro" id="AreaPesq">
+            <input type="button" value="&#x1F50D" id="PesqLupa">
+            <span id="MenuBurger" class="material-symbols-outlined" onclick="ClickMenu()">menu</span>
+        </div>
+
+        <div id="NavMenu2">
+            <a href="index.html">Home</a>
+            <a href="#DesQS">Quem somos?</a>
+            <a href="contato.html" rel="next">Fale Conosco</a>
+        </div>
+    
+    <main>
+        <section>
+            <picture id="ImgCapa">
+                <source media="(max-width: 550)" srcset="imagens/livros-img-capa-500" type="image/jpg">
+                <source media="(max-width: 750)" srcset="imagens/livros-img-capa-700" type="image/jpg">
+                <source media="(max-width: 950)" srcset="imagens/livros-img-capa-900" type="image/jpg">
+                <source media="(max-width: 1150)" srcset="imagens/livros-img-capa-1100" type="image/jpg">
+                <img src="imagens/livros-img-capa-1500.jpg" alt="Livros em uma estante">
+            </picture>
+        </section>
+        <article id="DesQS">
+
+            <h2>QUEM SOMOS?</h2>
+
+            <h3 class="sub3">Descubra as Vantagens Incomparáveis da Nossa Anuidade Regular</h3>
+
+            <p>Ao adquirir a nossa anuidade regular, você estará abrindo as portas para um mundo de vantagens exclusivas que transformarão sua jornada acadêmica e profissional. Aqui está o que você pode esperar:</p>
+                
+            <h4 class="sub4">Acesso Total e Sem Taxas Adicionais</h4>
+                
+            <p>Com a nossa anuidade, você não precisará se preocupar com novas taxas para utilizar qualquer um dos recursos abaixo. Tudo está incluso no seu plano, garantindo uma experiência sem complicações e totalmente acessível.</p>
+                
+            <h4 class="sub4">Expanda Seus Horizontes com Seus Colegas</h4>
+                
+            <p>Como parte do nosso compromisso em promover a educação colaborativa, oferecemos acesso gratuito para até cinco colegas. Isso significa que você e seus amigos ou colegas de estudo podem aproveitar todos os benefícios sem custos extras.</p>
+                
+            <h4 class="sub4">Um Acervo Infinito de Conhecimento</h4>
+                
+            <ul class="list-princ">
+                <li>Milhares de Livros à Sua Disposição: Explore uma vasta biblioteca digital repleta de livros de todas as áreas do conhecimento. Desde clássicos até as mais recentes publicações, você encontrará tudo o que precisa para aprofundar seus estudos.</li>
+                
+                <li>TCCs Prontos e Aprovados: Ganhe inspiração e direcione seu trabalho acadêmico com TCCs que já passaram pelo crivo de bancas examinadoras.</li>
+                
+                <li>Monografias de Mestrado e Teses de Doutorado: Tenha acesso a trabalhos acadêmicos de alto nível, que podem servir como referência para seus próprios projetos e pesquisas.</li>
+            </ul>
+                
+            <h4 class="sub4">Certificados Validados em Todo o Brasil</h4>
+                
+            <p>Os cursos oferecidos através do nosso programa proporcionam certificados reconhecidos nacionalmente. Use esses certificados para:</p>
+                
+            <ul class="list-princ">
+                <li>Cumprir horas complementares na faculdade</li>
+                <li>Fortalecer seu currículo em processos seletivos</li>
+                <li>Acelerar sua progressão funcional</li>
+                <li>E muito mais!</li>
+            </ul>
+                
+            <h4 class="sub4">Recursos Exclusivos para Auxiliar Seus Estudos</h4>
+                
+            <ul class="list-princ">
+                <li>Revistas Científicas: Fique atualizado com as últimas pesquisas e descobertas em sua área de interesse.</li>
+                
+                <li>Textos em PDF para Baixar: Obtenha materiais de estudo de qualidade diretamente no seu dispositivo, prontos para serem consultados a qualquer momento.</li>
+                
+                <li>Sugestão de Índice e Bibliografia: Receba sugestões valiosas para a estruturação de seu trabalho acadêmico e TCC, facilitando seu processo de pesquisa e organização.</li>
+            </ul>
+                
+            <h4 class="sub4">Suporte Personalizado via WhatsApp</h4>
+                
+            <p>Precisa de ajuda rápida e eficiente? Nosso atendimento via WhatsApp está disponível para resolver suas dúvidas e oferecer suporte personalizado sempre que você precisar.</p>
+                
+            <h3 class="sub3">Invista em Seu Futuro</h3>
+                
+            <p>Não perca a oportunidade de transformar sua trajetória acadêmica e profissional com todos esses benefícios incríveis. Adquira nossa anuidade regular e aproveite ao máximo cada recurso oferecido. Junte-se a nós e descubra como podemos ajudar você a alcançar seus objetivos com mais facilidade e eficiência.</p>
+                
+            <h4 class="sub4">Garanta já sua anuidade e comece a desfrutar de todas essas vantagens exclusivas!</h4>
+        </article>
+    </main>
+    <footer>
+        <div id="LogoBaixo"><img src="imagens/logo-xeditora-100px.png" alt=""></div>
+        <div id="Contatos">
+            <p>E-mail: xeditora@gmail.com</p>
+            <p>Contato: (91) 99999-0000</p>
+        </div>
+        <div id="TermUso"><a href="termosdeuso.html" rel="next">Todos os direitos reservados a Xeditora</a></div>
+    </footer>
+
+    <script>
+        let menu1 = document.getElementById('NavMenu1')
+        let menu2 = document.getElementById('NavMenu2')
+        let pesq = document.getElementById('PesqGeral')
+
+        function ClickMenu(){
+            if(menu2.style.display == 'block'){
+                menu2.style.display = 'none'
+            } else{
+                menu2.style.display = 'block'
+            }
+        }
+
+        function MudouTamanho(){
+            if (window.innerWidth >= 768) {
+                menu2.style.display = 'block'
+                menu2.style.display = 'none'
+            } else {
+                menu2.style.display = 'none'
+            }
+        }
+    </script>
+</body>
+</html>
