@@ -105,11 +105,23 @@
         text-align: center;
         background-color: var(--cor2);
         width: 100%;
+        position: relative;
     }
 
-    #NavMenu1 > a:hover{
-        background-color: var(--cor1);
-        color: var(--cor2);
+    #NavMenu1 > a::after{
+        content: " ";
+        width: 0px;
+        height: 4px;
+        background-image: linear-gradient(90deg, #1C1526, hwb(264 51% 7%));
+        position: absolute;
+        left: 0;
+        top: 35px;
+        border-radius: 10px;
+        transition: width 0.4s;
+    }
+
+    #NavMenu1 > a:hover::after{
+        width: 98%;
     }
 
     #NavMenu1{
@@ -127,5 +139,32 @@
 
     main{
         margin-top: 7px;
+    }
+
+    #BoasVindas{
+        max-height: 10vw;
+        padding: 30px 0px 20px 0px;
+        background-color: var(--cor1);
+        text-align: center;
+        font-family: var(--font-mukta);
+        margin: 0px 20px 10px 20px;
+    }
+    
+    #BoasVindas > h1{
+        font-size: 3.5vw;
+        margin-bottom: 10px;
+    }
+
+    #BoasVindas > p{
+        margin-top: 15px;
+        font-size: 1.5vw;
+    }
+    
+    mark{
+        padding: 4px;
+        background-color: var(--cor2);
+        border-radius: 10px;
+        color: white;
+        font-size: 2.6vw;
     }
 }

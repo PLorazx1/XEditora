@@ -18,19 +18,24 @@
     <header>
         <div  id="LogoTopo"><img src="imagens/logo-xeditora-200px.png" alt="Logo da empresa X Editora"></div>
     </header>
-    <span id="MenuBurger" class="material-symbols-outlined" onclick="ClickMenu()">menu</span>
     <menu>
-        <div id="NavMenu">
-            <a href="index.html" rel="prev">Home</a>
-            <a href="index.html#DesQS" rel="prev">Quem somos?</a>
-            <a href="contato.html">Fale Conosco</a>
+        <div id="NavMenu1">
+            <a href="index.html">Home</a>
+            <a href="#DesQS">Quem somos?</a>
+            <a href="contato.html" rel="next">Fale Conosco</a>
         </div>
         
         <div id="PesqGeral">
             <input type="search" name="PesqLivro" id="AreaPesq">
             <input type="button" value="&#x1F50D" id="PesqLupa">
+            <span id="MenuBurger" class="material-symbols-outlined" onclick="ClickMenu()">menu</span>
         </div>
-    
+
+        <div id="NavMenu2">
+            <a href="index.html">Home</a>
+            <a href="#DesQS">Quem somos?</a>
+            <a href="contato.html" rel="next">Fale Conosco</a>
+        </div>
     <main>
         <section>
             <picture id="ImgCapaCont">
@@ -61,23 +66,24 @@
     </footer>
 
     <script>
-        let links = document.getElementById('NavMenu')
+        let menu1 = document.getElementById('NavMenu1')
+        let menu2 = document.getElementById('NavMenu2')
         let pesq = document.getElementById('PesqGeral')
 
         function ClickMenu(){
-            if(links.style.display == 'block'){
-                links.style.display = 'none'
+            if(menu2.style.display == 'block'){
+                menu2.style.display = 'none'
             } else{
-                links.style.display = 'block'
+                menu2.style.display = 'block'
             }
         }
 
         function MudouTamanho(){
             if (window.innerWidth >= 768) {
-                links.style.display = 'block'
-                links.style.display = 'inline'
+                menu2.style.display = 'block'
+                menu2.style.display = 'none'
             } else {
-                links.style.display = 'none'
+                menu2.style.display = 'none'
             }
         }
     </script>
