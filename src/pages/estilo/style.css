@@ -60,7 +60,8 @@ menu{
     font-size: 2.5em;
     text-align: right;
     cursor: pointer;
-    padding: 10px;
+    padding: 5px;
+    margin: 4px 4px 0px 4px;
     margin-right: 10px;
     vertical-align: middle;
     border-radius: 3px;
@@ -95,6 +96,7 @@ menu{
     background-color: white;
     border-style: none;
     display: inline;
+    cursor: pointer;
 }
 
 #PesqGeral{
@@ -145,6 +147,33 @@ main{
     padding-top: 50px;
 }
 
+#BoasVindas{
+    max-height: 19vw;
+    padding: 20px 0px;
+    background-color: var(--cor1);
+    text-align: center;
+    font-family: var(--font-mukta);
+    margin: 10px 20px 0px 20px;
+}
+
+#BoasVindas > h1{
+    font-size: 6vw;
+    margin-bottom: 5px;
+}
+
+#BoasVindas > p{
+    margin-top: 8px;
+    font-size: 3vw;
+}
+
+mark{
+    padding: 4px;
+    background-color: var(--cor2);
+    border-radius: 10px;
+    color: white;
+    font-size: 5vw;
+}
+
 #ImgCapa > img{
     width: 100%;
     margin-bottom: 50px;
@@ -160,7 +189,7 @@ main{
     max-width: 800px;
     min-height: 200px;
     padding: 30px;
-    color: var(--cor1);
+    color: white;
     margin-left: 8%;
     margin-right: 8%;
     border-radius: 10px;
@@ -181,6 +210,45 @@ main{
     padding-bottom: 15px;
     line-height: 1.2em;
     text-align: left;
+    padding-bottom: 10px;
+}
+
+strong{
+    background-color: #8f70b9a3;
+    padding: 0px 3px;
+    margin: 0px 3px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.sub3{
+    text-align: left;
+    font-size: 1.6em;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-variant-caps: all-petite-caps;
+}
+
+.sub4{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 1.3em;
+    font-weight: bolder;
+    font-variant-caps: all-petite-caps;
+}
+
+.list-princ{
+    margin: 20px 30px 20px 30px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    font-weight: 550;
+    list-style: none;
+    background-color: #674d8c71;
+}
+
+.list-princ > li{
+    margin-bottom: 15px;
 }
 
 #Cont{
