@@ -143,6 +143,10 @@ main{
     padding-bottom: 40px;
 }
 
+#resultado{
+    padding-bottom: 0px;
+}
+
 #CorpoTermos{
     padding-top: 50px;
 }
@@ -341,4 +345,20 @@ footer{
     background-color: var(--cor4);
     color: white;
     font-family: var(--font-mukta);
+}
+
+#NavPages{
+    width: 460px;
+    margin: auto;
+    padding: 100px;
+}
+
+.NumPages{
+    display: inline;
+    padding: 7px;
+    margin: 4px;
+    background-color: var(--cor3);
+    color: white;
+    border-radius: 5px;
+    font-family: var(--font-padrao);
 }
