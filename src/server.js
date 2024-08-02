@@ -10,11 +10,10 @@ const app = express(); //criação da const da função express
 
 app.use(express.json());
 app.use(cors({
-  origin: '*'
+  origin: env.API_BASE_URL
 }));
-app.use(express.urlencoded({ extended: true }));
 
-app.all('/pesq/:busca', (req, res) => Busca(req, res)); //Acertei - falta acertar o body
+app.get('/pesq/:busca', (req, res) => Busca(req, res));
 
 app.post('/pesquisa/:termo', (req, res) => {
   // req.is(express.json);
