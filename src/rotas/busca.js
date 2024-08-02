@@ -1,30 +1,28 @@
 const { getJson } = require("serpapi");
 require("dotenv").config();
 const { env } = require("process");
+const { Tratamento } = require("./tratamento");
 const { CampVazio, TempEsg } = require("../errors/server-error");
 const lingua = 'pt-br';
 const quant = 12;
 const segsEspera = 10;
 
 async function Busca(req, res){
-    
-    //Espaço para pegar o termo
+    let { busca } = req.params;
+    busca += ' livro';
 
-    termo += 'livro';
-    if (termo.length == 0 || termo == ' '){
-        return CampVazio();
-    }
     setTimeout(() => {
-        res.send(TempEsg);
-    }, segsEspera * 1000)
+        if (!result) res.send(TempEsg); // preciso testar se chegou
+    }, segsEspera * 1000);
+
     getJson({
         api_key: env.API_KEY,
         engine: "google_scholar",
-        q: termo,
+        q: busca,
         hl: lingua,
         num: quant
     }, (json) => {
-        return json;
+        Tratamento(json);
     });
 }
 
