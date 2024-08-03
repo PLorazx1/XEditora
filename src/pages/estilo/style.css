@@ -347,6 +347,40 @@ footer{
     font-family: var(--font-mukta);
 }
 
+.ResPesq{
+    font-family: var(--font-padrao);
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    font-size: 2em;
+}
+
+.ResLivro{
+    font-family: var(--font-padrao);
+    text-align: center;
+    font-size: 2em;
+}
+
+#ResGeral{
+    text-align: center;
+}
+
+#ResGeral > .ResEsquerda{
+    width: 310px;
+    text-align: left;
+    padding: 50px 30px 0px 50px;
+    display: inline-block;
+}
+
+.ResEsquerda > h1{
+    font-size: 2em;
+    font-family: var(--font-padrao);
+    padding-bottom: 10px;
+}
+
+.ResEsquerda > p{
+    text-align: justify;
+}
+
 #NavPages{
     width: 460px;
     margin: auto;
@@ -357,8 +391,12 @@ footer{
     display: inline;
     padding: 7px;
     margin: 4px;
-    background-color: var(--cor3);
+    background-color: rgb(61, 61, 61);
     color: white;
     border-radius: 5px;
     font-family: var(--font-padrao);
+}
+
+.material-symbols-outlined{
+    vertical-align: middle;
 }
