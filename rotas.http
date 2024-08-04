@@ -1,12 +1,6 @@
-### Solicitação
+### Solicitação da pesquisa
 
-POST http://localhost:3000/pesquisa/Café
-
-{
-    "busca": "Café",
-    "lingua": "pt-br",
-    "num": 12
-}
+GET http://localhost:3000/pesquisa/Café
 
 ### Home
 

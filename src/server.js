@@ -13,18 +13,7 @@ app.use(cors({
   origin: env.API_BASE_URL
 }));
 
-app.get('/pesq/:busca', (req, res) => Busca(req, res));
-
-app.post('/pesquisa/:termo', (req, res) => {
-  // req.is(express.json);
-  const { termo } = req.params
-  log(req.body);
-  log(termo);
-  // res.send(req);
-  let resultados = Busca(req, res);
-
-  // let resultados = Busca(termo)
-})
+app.get('/pesquisa/:busca', (req, res) => Busca(req, res));
 
 //função que retorna uma pagina HTML ao acessar /home
 app.use("/", express.static(path.join(__dirname, '\pages')));

@@ -8,21 +8,18 @@ const quant = 12;
 const segsEspera = 10;
 
 async function Busca(req, res){
-    let { busca } = req.params;
-    busca += ' livro';
-
-    setTimeout(() => {
-        if (!result) res.send(TempEsg); // preciso testar se chegou
-    }, segsEspera * 1000);
+    const { busca } = req.params;
+    let termo = busca + ' livro';
 
     getJson({
         api_key: env.API_KEY,
         engine: "google_scholar",
-        q: busca,
+        q: termo,
         hl: lingua,
         num: quant
     }, (json) => {
-        Tratamento(json);
+        if (json.search_metadata.total_time_taken > segsEspera) TempEsg(); //estudar as paginas de erro
+        else Tratamento(busca, json, res);
     });
 }
 
