@@ -8,7 +8,8 @@ const quant = 12;
 const segsEspera = 10;
 
 async function Busca(req, res){
-    const { busca } = req.params;
+    let busca = req.body.Busca;
+    let page = req.body.Pagina;
     let termo = busca + ' livro';
 
     getJson({
@@ -16,10 +17,11 @@ async function Busca(req, res){
         engine: "google_scholar",
         q: termo,
         hl: lingua,
-        num: quant
+        num: quant,
+        start: page*12
     }, (json) => {
         if (json.search_metadata.total_time_taken > segsEspera) TempEsg(); //estudar as paginas de erro
-        else Tratamento(busca, json, res);
+        else Tratamento(busca, json, page, res);
     });
 }
 

@@ -1,6 +1,12 @@
 ### Solicitação da pesquisa
 
-GET http://localhost:3000/pesquisa/Café
+GET http://localhost:3000/pesquisa
+Content-Type: application/json
+
+{
+    "Busca": "Café",
+    "Pagina": 1
+}
 
 ### Home
 

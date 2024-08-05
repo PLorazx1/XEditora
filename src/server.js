@@ -13,7 +13,7 @@ app.use(cors({
   origin: env.API_BASE_URL
 }));
 
-app.get('/pesquisa/:busca', (req, res) => Busca(req, res));
+app.post('/pesquisa', (req, res) => Busca(req, res));
 
 //função que retorna uma pagina HTML ao acessar /home
 app.use("/", express.static(path.join(__dirname, '\pages')));
@@ -22,3 +22,25 @@ app.use("/", express.static(path.join(__dirname, '\pages')));
 app.listen(env.PORT, (req, res) => {
   log("server on");
 });
+
+//codigo dentro do html:
+
+async function Requisicao(page) {
+  const header = new Headers({
+      "Content-Type": "application/json"
+  });
+  const url = "http://localhost:3000/pesquisa"
+  const response = await fetch(url, {
+      method: "POST",
+      headers: header,
+      mode: "cors",
+      body: JSON.stringify({
+          "Busca": String(document.querySelector("#AreaPesq").value),
+          "Pagina": String(page)
+      })
+  });
+  const html = await response.text();
+  const main = document.querySelector("main");
+  main.id = "resultados";
+  main.innerHTML = html;
+}
