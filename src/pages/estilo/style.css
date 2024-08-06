@@ -139,7 +139,7 @@ main{
     margin: auto;
     border-bottom-right-radius: 10px;
     border-bottom-left-radius: 10px;
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.291);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.291);
     padding-bottom: 40px;
 }
 
@@ -156,18 +156,19 @@ main{
     padding: 20px 0px;
     background-color: var(--cor1);
     text-align: center;
-    font-family: var(--font-mukta);
-    margin: 10px 20px 0px 20px;
+    font-family: var(--font-padrao);
+    margin: 10px 20px 10px 20px;
 }
 
 #BoasVindas > h1{
     font-size: 6vw;
     margin-bottom: 5px;
+    font-family: var(--font-mukta);
 }
 
 #BoasVindas > p{
     margin-top: 8px;
-    font-size: 3vw;
+    font-size: 3.5vw;
 }
 
 mark{
@@ -336,6 +337,33 @@ footer{
     color: var(--cor0);
     font-family: var(--font-mukta);
     font-size: 0.8em;
+}
+
+#Forms{
+    text-align: left;
+}
+
+.txtMensagem{
+    width: 300px;
+    height: 50px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-indent: 10px;
+}
+
+#areaMensagem{
+    width: 300px;
+    border-radius: 5px;
+    text-indent: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+#enviar{
+    width: 302px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
 }
 
 #TermUso{

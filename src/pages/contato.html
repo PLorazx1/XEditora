@@ -45,16 +45,26 @@
                 <img src="imagens/contato-full.jpg" alt="Livros em uma estante">
             </picture>
         </section>
-        <article id="Cont">
 
+        <section id="Cont">
             <h2>Entre em contato conosco</h2>
-
             <h3 class="TipoCont">Celular/WhatsApp:</h3>   
             <p class="EntreCont">(91) 98888-5555</p>
 
-            <h3 class="TipoCont">E-mail:</h3>       
-            <p class="EntreCont">xeditora@gmail.com</p>
-        </article>
+            <section id="Forms">
+                <form action="https://formsubmit.co/yuri.mmatsuzaki@gmail.com" method="POST">
+                    <input type="text" name="Nome" placeholder="Digite seu nome" required class="txtMensagem"> <br>
+                    <input type="email" name="Email" placeholder="Digite seu E-mail" required class="txtMensagem"> <br>
+                    <textarea name="Mensagem" id="areaMensagem" cols="30" rows="10" placeholder="Digite sua mensagem..." required></textarea> <br>
+                    <button type="submit" id="enviar">Enviar</button>
+
+                    <input type="hidden" name="_subject" value="Novo contato">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="text" name="_honey" style="display:none">
+               </form>
+            </section>
+        </section>
+
     </main>
     <footer>
         <div id="LogoBaixo"><img src="imagens/logo-xeditora-100px.png" alt=""></div>
