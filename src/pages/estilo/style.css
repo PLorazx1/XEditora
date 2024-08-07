@@ -154,39 +154,138 @@ main{
 #BoasVindas{
     max-height: 19vw;
     padding: 20px 0px;
-    background-color: var(--cor1);
+    background-color: #000000;
     text-align: center;
     font-family: var(--font-padrao);
-    margin: 10px 20px 10px 20px;
+    padding: 40px 20px 80px 20px;
 }
 
 #BoasVindas > h1{
     font-size: 6vw;
     margin-bottom: 5px;
     font-family: var(--font-mukta);
-}
-
-#BoasVindas > p{
-    margin-top: 8px;
-    font-size: 3.5vw;
+    color: white;
 }
 
 mark{
     padding: 4px;
-    background-color: var(--cor2);
-    border-radius: 10px;
-    color: white;
+    background-color: var(--cor1);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
     font-size: 5vw;
 }
 
 #ImgCapa > img{
     width: 100%;
-    margin-bottom: 50px;
+}
+
+#imgPrincipal{
+    background-color: #000000;
 }
 
 #ImgCapaCont > img{
     width: 100%;
     margin-bottom: 50px;
+}
+
+.Vant{
+    height: 550px;
+}
+
+#Vantagens1{
+    background-image: linear-gradient(180deg, #000000, #2c1a45);
+    text-align: center;
+    padding-bottom: 100px
+}
+
+#Vantagens1 > img{
+    width: 280px;
+    height: 280px;
+    padding-top: 10px;
+}
+
+#Vantagens1 > article > h3{
+    color: white;
+    font-family: var(--font-mukta);
+    font-weight: 800;
+    font-size: 1.5em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#Vantagens1 > article > p{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding: 30px 15px 0px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+#Vantagens2{
+    background-image: linear-gradient(180deg, #2c1a45, #000000);
+    text-align: center;
+    padding-bottom: 100px
+}
+
+#Vantagens2 > img{
+    width: 280px;
+    height: 280px;
+    padding-top: 10px;
+}
+
+#Vantagens2 > article > h3{
+    color: white;
+    font-family: var(--font-mukta);
+    font-weight: 800;
+    font-size: 1.5em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#Vantagens2 > article > p{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding: 30px 15px 0px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+#Vantagens3{
+    background-image: linear-gradient(180deg, #000000, #2c1a45);
+    text-align: center;
+    padding-bottom: 60px
+}
+
+#Vantagens3 > img{
+    width: 280px;
+    height: 280px;
+    padding-top: 10px;
+}
+
+#Vantagens3 > article > h3{
+    color: white;
+    font-family: var(--font-mukta);
+    font-weight: 800;
+    font-size: 1.5em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#Vantagens3 > article > p{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding: 30px 15px 0px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
 }
 
 #DesQS{
@@ -195,6 +294,7 @@ mark{
     min-height: 200px;
     padding: 30px;
     color: white;
+    margin-top: 80px;
     margin-left: 8%;
     margin-right: 8%;
     border-radius: 10px;
@@ -393,7 +493,7 @@ footer{
 }
 
 #ResGeral > .ResEsquerda{
-    width: 310px;
+    max-width: 310px;
     text-align: left;
     padding: 50px 30px 0px 50px;
     display: inline-block;
@@ -410,19 +510,23 @@ footer{
 }
 
 #NavPages{
-    width: 460px;
+    width: 200px;
     margin: auto;
-    padding: 100px;
+    padding: 100px 30px 70px 30px;
 }
 
 .NumPages{
     display: inline;
     padding: 7px;
-    margin: 4px;
+    margin: px;
     background-color: rgb(61, 61, 61);
     color: white;
     border-radius: 5px;
     font-family: var(--font-padrao);
+}
+
+.NumPages:hover{
+    background-color: var(--cor2);
 }
 
 .material-symbols-outlined{
