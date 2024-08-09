@@ -20,15 +20,32 @@ function Tratamento(busca, json, num, res) {
     //criando a paginação:
     const divisa_sections = `</section>
 
-        <section id="NavPages">`;
+        <section id="NavPages">
+            <button class="NumPages" onclick="Requisicao(${num-1>=0 ? num-1 : 0})">
+                    <span class="material-symbols-outlined">chevron_left</span>
+                </button>`;
     page += divisa_sections;
-    //seta esquerda:
-
     //numeros:
-    for(let i = 0; i<10; i++){}
+    for(let i = 0; i<10; i++){
+        let numero;
+        if(i === num) {
+            numero = `<button class="NumPagesAki" onclick="Requisicao(${i})>
+                ${i+1}
+            </button>`;
+        } else {
+            numero = `<button class="NumPages" onclick="Requisicao(${i})>
+                ${i+1}
+            </button>`;
+        }
+        page += numero;
+    }
     //seta direita:
-
-    //rodapé:
+    const rodape = `<button class="NumPages" onclick="Requisicao(${num+1<=10 ? num+1 : 10})>
+                <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+        </section>`;
+    page += rodape;
+    //enviando:
     res.send(page);
 }
 
