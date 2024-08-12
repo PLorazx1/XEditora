@@ -19,7 +19,7 @@
             const header = new Headers({
                 "Content-Type": "application/json"
             });
-            const url = "http://localhost:3000/pesquisa"
+            const url = "http://localhost:3000/pesquisa" //nessecita de alteração para caso uso comercial, mas nesta rota
             const response = await fetch(url, {
                 method: "POST",
                 headers: header,
