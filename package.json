@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "teste": "nodemon src/server.js"
+    "on": "nodemon src/server.js"
   },
   "keywords": [],
   "author": "Paulo Loraschi e Yuri Matsuzaki",

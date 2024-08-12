@@ -27,20 +27,20 @@ function Tratamento(busca, json, num, res) {
     page += divisa_sections;
     //numeros:
     for(let i = 0; i<10; i++){
-        let numero;
         if(i === num) {
-            numero = `<button class="NumPagesAki" onclick="Requisicao(${i})>
-                ${i+1}
+            let numero = `<button class="NumPagesAki" onclick="Requisicao(${i})">
+                ${i + 1}
             </button>`;
+            page += numero;
         } else {
-            numero = `<button class="NumPages" onclick="Requisicao(${i})>
+            let numero = `<button class="NumPages" onclick="Requisicao(${i})">
                 ${i+1}
             </button>`;
+            page += numero;
         }
-        page += numero;
     }
     //seta direita:
-    const rodape = `<button class="NumPages" onclick="Requisicao(${num+1<=10 ? num+1 : 10})>
+    const rodape = `<button class="NumPages" onclick="Requisicao(${num + 1 <= 10 ? num + 1 : 10})">
                 <span class="material-symbols-outlined">chevron_right</span>
             </button>
         </section>`;
